@@ -11,6 +11,8 @@
 		BD8375F929437A2F00E03C2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8375F829437A2F00E03C2D /* ContentView.swift */; };
 		BD8375FB29437A3100E03C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8375FA29437A3100E03C2D /* Assets.xcassets */; };
 		BD8375FF29437A3100E03C2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8375FE29437A3100E03C2D /* Preview Assets.xcassets */; };
+		BD83760629437CBC00E03C2D /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83760529437CBC00E03C2D /* ProgressRing.swift */; };
+		BD83760829439D0B00E03C2D /* FastingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83760729439D0B00E03C2D /* FastingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		BD8375FA29437A3100E03C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8375FC29437A3100E03C2D /* FastingTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastingTimer.entitlements; sourceTree = "<group>"; };
 		BD8375FE29437A3100E03C2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD83760529437CBC00E03C2D /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
+		BD83760729439D0B00E03C2D /* FastingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				BD8375F629437A2F00E03C2D /* FastingTimerApp.swift */,
 				BD8375F829437A2F00E03C2D /* ContentView.swift */,
+				BD83760529437CBC00E03C2D /* ProgressRing.swift */,
+				BD83760729439D0B00E03C2D /* FastingManager.swift */,
 				BD8375FA29437A3100E03C2D /* Assets.xcassets */,
 				BD8375FC29437A3100E03C2D /* FastingTimer.entitlements */,
 				BD8375FD29437A3100E03C2D /* Preview Content */,
@@ -141,6 +147,8 @@
 			files = (
 				BD8375F929437A2F00E03C2D /* ContentView.swift in Sources */,
 				BD8375F729437A2F00E03C2D /* FastingTimerApp.swift in Sources */,
+				BD83760829439D0B00E03C2D /* FastingManager.swift in Sources */,
+				BD83760629437CBC00E03C2D /* ProgressRing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
